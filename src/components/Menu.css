@@ -145,4 +145,17 @@
     .menu-grid {
         grid-template-columns: 1fr;
     }
+
+    .menu-card {
+        padding: 1.5rem;
+    }
+
+    .menu-card-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .dish-name {
+        font-size: 1.15rem;
+    }
 }

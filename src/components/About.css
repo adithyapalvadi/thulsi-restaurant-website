@@ -82,8 +82,6 @@
 }
 
 .about-content .section-title {
-    left: 0;
-    transform: none;
     text-align: left;
 }
 
@@ -156,8 +154,6 @@
 
     .about-content .section-title {
         text-align: center;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .about-content .section-title::after {

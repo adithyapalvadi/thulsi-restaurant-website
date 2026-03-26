@@ -22,12 +22,17 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
   background-color: var(--bg-color);
   line-height: 1.6;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -67,6 +72,20 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.2rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
 }
 
 .btn {
@@ -124,9 +143,6 @@ img {
   font-size: 2.5rem;
   margin-bottom: 3rem;
   position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .section-title::after {

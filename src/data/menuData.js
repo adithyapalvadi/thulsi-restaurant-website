@@ -168,137 +168,151 @@ export const fullMenu = [
     "cat": "Meals"
   },
   {
+    "name": "Soups Wild Mushroom Soup",
+    "desc": "",
+    "price": "₹444.00",
+    "tag": "Regular",
+    "cat": "Soups"
+  },
+  {
     "name": "Thulsi Special Potato Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Chef Special",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Tomato Coriander Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Regular",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Tomato Coriander Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Jain Available",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Cream Of Vegetable Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Regular",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Cream Of Vegetable Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Jain Available",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "American Corn Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Regular",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain American Corn Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Jain Available",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Vegetable And Corn Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Regular",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Vegetable And Corn Soup",
     "desc": "",
     "price": "₹394.00",
     "tag": "Jain Available",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Curry Leaves Soup",
     "desc": "",
     "price": "₹404.00",
     "tag": "Regular",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Curry Leaves Soup",
     "desc": "",
     "price": "₹404.00",
     "tag": "Regular",
-    "cat": "Soups - Soups Wild Mushroom Soup ₹444.00"
+    "cat": "Soups"
+  },
+  {
+    "name": "Salads Horiatiki Salad",
+    "desc": "",
+    "price": "₹444.00",
+    "tag": "Regular",
+    "cat": "Soups"
   },
   {
     "name": "Jain Horiatiki Salad",
     "desc": "",
     "price": "₹444.00",
     "tag": "Jain Available",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Raw Mango Salad",
     "desc": "",
     "price": "₹444.00",
     "tag": "Regular",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Raw Mango Salad",
     "desc": "",
     "price": "₹444.00",
     "tag": "Jain Available",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Caesar Salad",
     "desc": "",
     "price": "₹444.00",
     "tag": "Regular",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Green Salad",
     "desc": "",
     "price": "₹296.00",
     "tag": "Regular",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Green Salad",
     "desc": "",
     "price": "₹296.00",
     "tag": "Jain Available",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Watermelon Feta Salad",
     "desc": "",
     "price": "₹444.00",
     "tag": "Regular",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Jain Watermelon Feta Salad",
     "desc": "",
     "price": "₹444.00",
     "tag": "Jain Available",
-    "cat": "Soups - Salads Horiatiki Salad ₹444.00"
+    "cat": "Soups"
   },
   {
     "name": "Honey Chilli Lotus Stem",
@@ -1141,193 +1155,207 @@ export const fullMenu = [
     "cat": "Breads"
   },
   {
+    "name": "Rice Asian Basil Cottage White Rice",
+    "desc": "",
+    "price": "₹606.00",
+    "tag": "Regular",
+    "cat": "Rice and Biryani"
+  },
+  {
     "name": "Asian Basil Cottage Garlic Rice",
     "desc": "",
     "price": "₹606.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jeera Rice",
     "desc": "",
     "price": "₹350.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Veg Paneer Cashew Pulao",
     "desc": "",
     "price": "₹498.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Veg Paneer Cashew Pulao",
     "desc": "",
     "price": "₹498.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Veg Paneer Pulao",
     "desc": "",
     "price": "₹485.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Veg Paneer Pulao",
     "desc": "",
     "price": "₹485.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Vegetable Cashew Pulao",
     "desc": "",
     "price": "₹471.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Veg Cashew Pulao",
     "desc": "",
     "price": "₹471.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Mushroom Pulao",
     "desc": "",
     "price": "₹485.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Peas Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Peas Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Peas Corn Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Peas Corn Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Corn Capsicum Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Corn Capsicum Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jeera Pulao",
     "desc": "",
     "price": "₹431.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Jeera Pulao",
     "desc": "",
     "price": "₹431.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Vegetable Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Vegetable Pulao",
     "desc": "",
     "price": "₹458.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Curry Leaves Rice",
     "desc": "",
     "price": "₹444.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Jain Curry Leaves Rice",
     "desc": "",
     "price": "₹444.00",
     "tag": "Jain Available",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Puliyodharai",
     "desc": "",
     "price": "₹444.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Farmers Curd Rice",
     "desc": "",
     "price": "₹417.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Steamed Rice",
     "desc": "",
     "price": "₹404.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Rice Asian Basil Cottage White Rice ₹606.00"
+    "cat": "Rice and Biryani"
+  },
+  {
+    "name": "Biryani Veg Biryani",
+    "desc": "",
+    "price": "₹471.00",
+    "tag": "Regular",
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Veg Paneer Biryani",
     "desc": "",
     "price": "₹485.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Biryani Veg Biryani ₹471.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Veg Cashew Biryani",
     "desc": "",
     "price": "₹485.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Biryani Veg Biryani ₹471.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Veg Mushroom Biryani",
     "desc": "",
     "price": "₹485.00",
     "tag": "Regular",
-    "cat": "Rice and Biryani - Biryani Veg Biryani ₹471.00"
+    "cat": "Rice and Biryani"
   },
   {
     "name": "Kalan Podi Paniyaram Fry Shallow fried mushroom paniyaram.",

@@ -77,10 +77,85 @@
     color: var(--white);
 }
 
-@media (max-width: 768px) {
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 1001;
+    /* Ensure above the sliding menu */
+}
 
-    .nav-links,
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--primary-color);
+}
+
+.navbar:not(.scrolled) .bar {
+    background-color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: var(--primary-color);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: var(--primary-color);
+    }
+
+    /* When mobile menu is open, make the navbar background solid even if not scrolled */
+    .navbar-mobile-open {
+        background-color: var(--white);
+    }
+
+    .nav-links {
+        position: fixed;
+        flex-direction: column;
+        background-color: var(--white);
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        padding: 2rem 0;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links a {
+        color: var(--text-color) !important;
+        font-size: 1.2rem;
+    }
+
     .nav-btn {
         display: none;
+    }
+
+    .nav-btn.active {
+        display: block;
+        position: fixed;
+        top: calc(70px + 280px);
+        /* Positioned below nav links */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        z-index: 1001;
     }
 }

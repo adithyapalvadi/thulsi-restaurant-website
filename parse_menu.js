@@ -24,14 +24,19 @@ for (let line of lines) {
 
     let isCategory = false;
     for (const cat of defaultCategories) {
-        if (line === cat || line.startsWith(cat + ' - ')) {
-            currentCategory = line;
+        // If line is exactly a category name, or it's a category header (doesn't contain price)
+        if (line === cat || (line.startsWith(cat + ' - ') && !line.match(/₹[\d,]+\.\d{2}/))) {
+            currentCategory = cat;
             isCategory = true;
             break;
         }
-        if (line.startsWith(cat + ' ')) {
+        // If line is a menu item prefixed with category name
+        if (line.startsWith(cat + ' ') || line.startsWith(cat + '-')) {
             currentCategory = cat;
             line = line.substring(cat.length).trim();
+            if (line.startsWith('- ')) {
+                line = line.substring(2).trim();
+            }
             break;
         }
     }
